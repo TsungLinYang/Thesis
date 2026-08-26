@@ -19,10 +19,12 @@
 ---
 
 ### CLN_BERT_vader.py
-在本程式碼中，需在程式中選擇語言模型如下:
+在本程式碼中，需在程式中決定是否開啟vader提前攔截機制，並且須選擇語言模型如下:
 
 - bert 
 - albert 
 - distilbert 
 - electra 
 - tinybert
+
+並選擇train模式、analysis模式與external test模式，train模式將讀入資料，並且訓練得到訓練權重。Analysis模式則將train模式得到的權重，在testing data進行推論速度與準確率分析，而external test模式則可利用現有權重，將外部資料進行分析。
