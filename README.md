@@ -8,6 +8,12 @@
 
 ---
 
+## DataSet
+
+本實驗資料集取自於https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment
+
+---
+
 ## BERT
 在本資料夾所使用的方法為文字替換方法，亦即將表情符號轉換成對應文字描述。使用Tweets公開資料集，並依序執行extract_csv.py、data_augmentation.py、preprocessing.py、emoji_replacement.py，並將最後輸出的.csv檔讀入至BERT.py
 
